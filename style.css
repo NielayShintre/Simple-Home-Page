@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.main {
+  background-color: #f2f9fe;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  background-color: #f2f9fe;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 20px;
+}
+
+nav img {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.hero-section {
+  position: relative;
+  height: 595px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f9fe;
+}
+
+.hero-section .content {
+  position: absolute;
+  left: 170px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.hero-section .content h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.hero-section .hero-img {
+  position: absolute;
+  right: 170px;
+  width: 500px;
+  height: 450px;
+  /* border: 1px solid; */
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+    background-color: #2A4DD0;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+
+.cta a {
+    font-size: small;
+    font-weight: 600;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.checkbox {
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 170px;
+}
+
+.checkbox .check {
+    display: flex;
+}
+
+.check-right {
+    margin-left: 30px;
+}
+
